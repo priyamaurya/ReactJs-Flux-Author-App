@@ -1,0 +1,47 @@
+var multiply = function(x, y){
+	
+	return x*y; 
+
+//example1
+
+var multiply =(x,y) =>{return x*y};
+
+var multiply =(x, y) => x*y;
+
+var string1 = function string1(stringsplitter){
+	return stringsplitter.split('');
+}
+
+//example 2
+var string1 = stringsplitter => stringspliter.split('');
+
+//example3 
+
+var setName = function setName(a,b,c){
+	return {
+		a:a,
+		b :b,
+		c: c
+	};
+};
+
+var setName = (a,b,c) => ({a:a,b:b,c:c});
+
+//
+
+console.log(smartPhones.map(
+smartPhone =>smartPhone.price
+
+));
+
+var names = [
+{name :'a' , price : 456},
+{name :'b', price :88},
+{name :'c', price :78}
+
+];
+
+
+console.log(names.map(name => name.name
+
+));
